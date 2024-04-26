@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Inicio</title>
+</head>
+
+<body>
+
+    <nav>
+        <center>
+            <a href="index.html">Inicio</a>
+            <a href="conocenos.html">Conocenos</a>
+            <a href="productos.html">Productos</a>
+            <a href="registro.html">Registro</a>
+            <a href="contacto.html">Contacto</a>
+        </center>
+    </nav>
+    
+    <form method="post" action="resultado.html" class="formRegis">
+        <h3>Datos personales</h3>
+        <div class="nombres">
+            <label for="nombres">Nombre(s):</label>
+            <input class="entrada" placeholder="Nombre(s)" type="text" name="nom" id="nombres">
+        </div>
+        <div class="apellidos">
+            <label for="apellidos">Apellidos:</label>
+            <input class="entrada" placeholder="Apellidos" type="text" name="ap" id="apellidos">
+        </div>
+        <div class="genero">
+            <label for="genero">Género:</label>
+            <input class="genero" type="radio" name="genero" value="masculino" id="">Masculino
+            <input class="genero" type="radio" name="genero" value="femenino" id="">Femenino
+        </div>
+        <div class="correo">
+            <label for="correo">Correo:</label>
+            <input class="entrada" placeholder="Ingrese su correo electrónico" type="email" name="corr" id="correo">
+        </div>
+        <div class="fnacimiento">
+            <label for="fnacimiento">Fecha de nacimiento:</label>
+            <input class="entrada" type="date" name="fdnaci" id="fnacimiento">
+        </div>
+        <div class="contraseña">
+            <label for="contraseña">Contraseña:</label>
+            <input class="entrada" placeholder="Contraseña" type="password" name="pass" id="contraseña">
+        </div>
+        <div class="direccion">
+            <label for="direccion">Dirección:</label><br>
+            <textarea class="entrada" placeholder="Dirección" name="dir" id="direccion" cols="30" rows="10"></textarea>
+        </div>
+        <input class="enviar" type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
